@@ -5,14 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
-	<title>Salome Frossard | Web Designer</title>
-	<meta name="description" content="I create digital experiences to promote products, services and events.">
+	<title>Portfolio | Salome Frossard | Web Designer</title>
+	<meta name="description" content="I use HTML and CSS with graphic design and animation to bring your ideas to life.">
 	
-    <link href="assets/css/resets.css" rel="stylesheet">
-    <link href="assets/css/menus.css" rel="stylesheet">
-    <link href="assets/css/header.css" rel="stylesheet">
-	<link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/footer.css" rel="stylesheet">
+    <link href="../assets/css/resets.css" rel="stylesheet">
+    <link href="../assets/css/menus.css" rel="stylesheet">  
+    <link href="../assets/css/header.css" rel="stylesheet">
+	<link href="../assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/footer.css" rel="stylesheet">
 
     <!-- Link to Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,12 +29,12 @@
     <!-- Begin desktop menu -->
     <div class="container-menu-desktop menu-dark menu-sticky">
         <!-- first child item -->
-        <a href="index.html"><img src="assets/img/website-logo.png" alt="website logo"></a>
+        <a href="../index.html"><img src="../assets/img/website-logo.png" alt="website logo"></a>
         <!-- second child item -->
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio/index.html">Portfolio</a></li>
-            <li><a href="contact/index.html" class="btn-cta">Contact &nbsp;<i class="fas fa-arrow-right"></i></a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="../contact/index.html" class="btn-cta">Contact &nbsp;<i class="fas fa-arrow-right"></i></a></li>
         </ul>
     </div>
     <!-- End desktop menu -->
@@ -43,7 +43,7 @@
     <!-- Begin mobile menu bar -->
     <div class="container-menu-bar-mobile menu-dark menu-sticky">
             <!-- first child -->
-            <a href="index.html"><img src="assets/img/website-logo.png" alt="website logo"></a>
+            <a href="#"><img src="../assets/img/website-logo.png" alt="website logo"></a>
             <!-- second child -->
             <div class="item-icon">
                 <div class="bar1"></div>
@@ -56,9 +56,9 @@
     <!-- Begin mobile menu slide-out options -->
     <div class="flyout-menu flyout-menu-is-closed menu-dark">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio/index.html">Portfolio</a></li>
-            <li><a href="contact/index.html" class="btn-cta">Contact &nbsp;<i class="fas fa-arrow-right"></i></a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="../contact/index.html" class="btn-cta"><i class="fas fa-shopping-cart"></i> Contact</a></li>
         </ul>
 
         <hr>
@@ -72,7 +72,6 @@
         <p>Have a project you'd like to discuss? Let's make something great together!</p>
 
         <h5><a href="salome.frossard@edu.devinci.fr" target="_blank">salome.frossard@edu.devinci.fr</a></h5>
-
 
         <h4>Social Links</h4>
         <div class="fly-out-social-icons">
@@ -89,67 +88,61 @@
     <!-- End mobile menu slide-out options -->
 
      <!-- Begin hero block -->
-    <div class="hero-block-two-columns unhide-content-under-sticky-menu">
+     <div class="hero-block-two-columns unhide-content-under-sticky-menu">
         <div class="item-2 fade-in">
-            <h1>Welcome to my website</h1>
-            <h2>Hi, I'm <b>Mary Smith</b>. I create digital experiences to promote products, services and events.</h2>
-            <div class="container-btn">
-                <a href="portfolio/index.html" class="btn btn-gradient btn-rounded"><i class="fas fa-arrow-right"></i> Portfolio</a>
-                <a href="contact/index.html" class="btn btn-ghost btn-rounded"><i class="fas fa-arrow-right"></i> Contact</a>
+            <h1>Welcome to my work</h1>
+            <h2>I use <b>HTML</b> and <b>CSS</b> with <b>graphic design</b> and <b>animation</b> to bring your ideas to life.</h2>
+            <div class="container-btn text-center-desktop text-center-mobile">
+                <a href="../contact/index.html" class="btn btn-rounded btn-gradient"><i class="fas fa-arrow-right"></i> Contact</a>
             </div>
         </div>
         <div class="item-2 fade-in">
-            <img src="assets/img/home-pic.jpg" alt="hero image">
+            <img src="../assets/img/portfolio-pic.jpg" alt="hero image">
         </div>
     </div>
     <!-- End hero block -->
 
-	<!-- Begin single-column container -->
+	<div class="container-flexbox bg-light-slate ">
+         <div class="item-1">
+                <h2>Web Development Projects</h2>
+                <p>Below you can see some examples of my work from my web development and design porfolio.</p>
+            </div>
+        </div><!-- End parent flexbox container -->
 
-	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
-	<div class="container-flexbox bg-light-slate">
-		<div class="item-1">
-			<h2>Recent Projects</h2>
-            <p>Below you can see some examples of my recent work. Check out my complete <a href="portfolio/index.html" class="fancy-link">portfolio</a>. Have a project you'd like to discuss? <a href="contact/index.html" class="fancy-link">Let's make something great together!</a></p>
-		</div>
-    </div><!-- End parent flexbox container -->
-    
-	
-	<div class="container-flexbox bg-light-slate">
-
+    <div class="container-flexbox bg-light-slate ">
 		<div class="item-3">
-			<a href="portfolio/van-gogh/index.html"><img src="assets/img/project-van-gogh.png" alt="Project: Vincent Van Gogh"></a>
+			<a href="van-gogh/index.html"><img src="../assets/img/project-van-gogh.png" alt="Project: Vincent Van Gogh"></a>
 			<h3>Vincent Van Gogh</h3>
             <p>Responsive page layout with fluid typography, Google Fonts, and embedded YouTube video.</p>
-            <a href="portfolio/van-gogh/index.html" class="button button-solid btn-rounded">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>             
+            <a href="van-gogh/index.html" class="button button-solid btn-rounded">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>             
 		</div>
 
         <div class="item-3">
-			<a href="portfolio/smoothies/index.html"><img src="assets/img/project-smoothie.jpg" alt="Project: Smooth Smoothies"></a>
+			<a href="smoothies/index.html"><img src="../assets/img/project-smoothie.jpg"  alt="Project: Smooth Smoothies"></a>
 			<h3>Smooth Smoothies</h3>
             <p>Transparent images, serverless email sign-up form and JavaScript on-scroll menu effects.</p>
-            <a href="portfolio/smoothies/index.html" class="button button-solid btn-rounded">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>           
+            <a href="smoothies/index.html" class="button button-solid btn-rounded">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>           
         </div>
         
 		<div class="item-3">
-			<a href="portfolio/ireland/index.html"><img src="assets/img/project-ireland.jpg" alt="Project: Ireland Tourism"></a>
+			<a href="ireland/index.html"><img src="../assets/img/project-ireland.jpg" alt="Project: Ireland Tourism"></a>
 			<h3>Ireland's Attractions</h3>
             <p>On-page navigation with a looped background video that includes a tinted overlay.</p>
-            <a href="portfolio/ireland/index.html" class="button button-solid btn-rounded">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>               
+            <a href="ireland/index.html" class="button button-solid btn-rounded">View Project &nbsp;<i class="fas fa-arrow-right"></i></a>               
 		</div>
 
 	</div><!-- End parent flexbox container -->
 
-    
+   
 	<footer>
 
         <h4>Salome Frossard</h4>
         <h5>Excellence in Communication and Business Strategy</h5>
 
         <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio/index.html">Portfolio</a></li>
-            <li><a href="contact/index.html">Contact</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
         </ul>
         
         <ul class="footer-icons">
@@ -171,11 +164,10 @@
                 </a>
             </li>
             
-         </ul>           
-        </footer>
+         </ul>   
+    </footer>
 
-    <script src="assets/js/menus.js"></script>        
-        
-	
+    <script src="../assets/js/menus.js"></script>   
+
 </body>
 </html>
