@@ -264,20 +264,20 @@
 
 /* ======= Dark background menu - desktops and mobiles ======= */
 
-/* background colour */
+/* background colour | Colonne tout en haut du menu*/
 .menu-dark { 
-	background-color: #183153; 
+	background-color: #fff; 
 	transition: all .5s ease-in-out
 }
 
 /* menu links */
-.menu-dark ul li a:link,  .menu-dark ul li a:visited { color: #fff }
-.menu-dark ul li a:hover, .menu-dark ul li a:active  { color: #b8b8b8 }
+.menu-dark ul li a:link,  .menu-dark ul li a:visited { color: #785ba7}
+.menu-dark ul li a:hover, .menu-dark ul li a:active  { color: #dbc5ff }
 
 /* cta button */
 .menu-dark ul li a.btn-cta:link,
 .menu-dark ul li a.btn-cta:visited { 
-    background-color: #34cdf1;
+    background-color: #dbc5ff;
     color: #fff;
     border-color:#fff
 }
@@ -285,7 +285,7 @@
 .menu-dark ul li a.btn-cta:hover,
 .menu-dark ul li a.btn-cta:active { 
     background-color: #fff;
-    color: #34cdf1;
+    color: #dbc5ff;
     border-color:#fff
 }
 
@@ -313,20 +313,20 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 .menu-dark.flyout-menu h5 a:hover, 
 .menu-dark.flyout-menu h5 a:active {
-    border-bottom-color: #34cdf1;
+    border-bottom-color: #dbc5ff;
 }
 
 /* profile image border colour */
-.menu-dark.flyout-menu div.fly-out-profile-box img { border-color: #34cdf1 }
+.menu-dark.flyout-menu div.fly-out-profile-box img { border-color: #dbc5ff }
 
 /* contact icons */
 .menu-dark.flyout-menu .fly-out-social-icons a i { color:#fff }
 
 .menu-dark ul li .btn-cta:any-link {
-    border-color: #183153 !important;
-    background-image: linear-gradient(to right,#3ec7e0,#526bf4); color: #fff !important;   
+    border-color: #362f52 !important;
+    background-image: linear-gradient(to right,#dbc5ff,#4d4475); color: #fff !important;   
 } 
 
 .menu-dark ul li :is(.btn-cta:focus, .btn-cta:hover, .btn-cta:active)  {
-    background-image: linear-gradient(90deg,#e052a0,#f15c41); color: #fff;
+    background-image: linear-gradient(90deg,#e052a0,#dbc5ff); color: #fff;
 } 

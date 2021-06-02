@@ -1,8 +1,8 @@
 
-/* Default font and colours */
+/* Default font and colours | Bloc Recent Project */
 h1, h2, h3 { color: #fff}
 p, li { color: #fff }
-.bg-light-slate { background-color: #515e7b }
+.bg-light-slate { background-color: #ede2ff }
 .bg-pastel-grey { background-color: #edf5f1 }
 
 
@@ -61,14 +61,14 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 }
  
 a.button-solid:link, .button-solid:visited {
-    border-color:#34cdf1;
+    border-color:#785ba7;
     color: #000;
-    background-color: #34cdf1;
+    background-color: #785ba7;
 } 
  
 a.button-solid:hover, .button-solid:active {
-    border-color:#183153;
-    background-color: #183153;
+    border-color:#544075;
+    background-color: #544075;
     color: #fff
 }
  
@@ -105,13 +105,13 @@ a.fancy-link:hover, a.fancy-link:active {
 }
 
 a.fancy-link:link, a.fancy-link:visited { 
-    color: #34cdf1; 
-    border-bottom-color:#34cdf1
+    color: #785ba7; 
+    border-bottom-color:#785ba7
 }
 
 a.fancy-link:hover, a.fancy-link:active { 
-    color: #fff; 
-    border-bottom-color: #fff
+    color: #dbc5ff; 
+    border-bottom-color: #dbc5ff
 }
 
 /* Buttons: corner styles */
@@ -209,7 +209,7 @@ img.image-circle {
 }
 
 .container-flexbox .item-1 h2 {
-    color: #34cdf1;
+    color: #785ba7;
     line-height: 1.2; margin-bottom: 20px;
     letter-spacing:-1px;
     font-weight: 600;
@@ -237,7 +237,7 @@ img.image-circle {
 .container-flexbox .item-2 h3,
 .container-flexbox .item-3 h3 {
     line-height: 1.2; margin-bottom: 12px;
-    color:#34cdf1
+    color:#785ba7
 }
 
 /* Centre-align text within two, three and four columns on mobiles */
@@ -273,7 +273,7 @@ img.image-circle {
 /* All screens */
 .container-contact-form { 
 	text-align: center; 
-	background-color: #183153
+	background-color: #785ba7
 }
 
 /* Desktop */
@@ -358,7 +358,7 @@ img.image-circle {
 
 #contact-form input, #contact-form textarea {
 	padding: 10px 12px;
-	border: 2px solid rgb(49,145,131);
+	border: 2px solid #544075;
 	background-color: #f0f0f0;
 	border-radius: 5px;
 }
@@ -373,19 +373,19 @@ img.image-circle {
 #contact-form #btn-submit { 
 	float: right; 
 	border: none; 
-    color: #000;
+    color: #ede2ff;
 	font-weight: bold;
     padding: 18px 28px;
     font-size: 18px;
-    border-color:#34cdf1;
-    color: #000;
-    background-color: #34cdf1;
+    border-color:#544075;
+    color: #ede2ff;
+    background-color: #544075;
 }
 
 
 #contact-form #btn-submit:hover, 
 #contact-form #btn-submit:active { 
-    background-color: red;
+    background-color: #dbc5ff;
     color: #fff
 }
 
